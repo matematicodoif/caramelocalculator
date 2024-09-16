@@ -1,0 +1,30 @@
+body {
+  background: #fab6621f;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a:hover {
+  border: 0.15rem solid #f0962b;
+}
+
+.navigation a {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #6a421a;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
